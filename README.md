@@ -1,5 +1,7 @@
-# RedM-UsableItems (WIP) (v0.1.0)
+# RedM-UsableItems (WIP)
  Make custom items usable in RedM with ease!
+ 
+**Version = 0.1.0**
  
 # Framework
 Currently this script only works with VORP. <br> 
