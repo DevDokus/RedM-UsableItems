@@ -11,10 +11,10 @@ local ObjFire = 0
 --------------------------------------------------------------------------------
 -- Core
 --------------------------------------------------------------------------------
-AddEventHandler('DevDokus:C:Consume', function(Item, Type, Hunger, Thirst, Stamina, Heal)
+AddEventHandler('DevDokus:C:Consume', function(Item, Type, Hunger, Thirst, Stamina, Health)
   local ped = PlayerPedId()
   if Type == 'Eat' then
-    DefaultTask(ped) Wait(1000)
+    TaskEat(ped) Wait(1000)
     for k,v in pairs(Items) do
       if Item == v.ID then
         TriggerEvent("fred:consume", Hunger, Thirst, Stamina, 0, 0, Health, 0, 0)
