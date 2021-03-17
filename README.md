@@ -26,3 +26,7 @@ We advise not to change any of the code if you want      <br>
 to be able to update to the next version flawlessly.     <br> 
 If you make changes to this script, you have to add      <br> 
 in the same changes once you update to a newer version.  <br> 
+
+# My other RedM scripts
+- [RedM Teleport]( https://github.com/DevDokus/RedM-Teleport)
+- [RedM Stores](https://github.com/DevDokus/Redm-Stores)
