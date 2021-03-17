@@ -8,7 +8,7 @@ games {"rdr3"}
 
 description 'Adds usable items in RedM'
 author 'DevDokus Github'
-version '0.1.0'
+version '1.0.0'
 
 client_scripts {
     'Core/client.lua',
