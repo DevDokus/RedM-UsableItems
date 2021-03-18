@@ -2,9 +2,7 @@
  Make custom items usable in RedM with ease!
 
 # Requirments
-[Fred Metabolism](https://github.com/SirFreddie/fred_metabolism)<br>
-Currently this script is depending on features <br>
-of Fred's Metabolism plugin. This can change in a future update.
+[DevDokus Metabolism](https://github.com/DevDokus/RedM-Metabolism)
  
 # Framework
 Currently this script only works with VORP. <br> 
