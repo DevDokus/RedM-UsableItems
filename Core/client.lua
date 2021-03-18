@@ -17,14 +17,20 @@ AddEventHandler('DevDokus:C:Consume', function(Item, Type, Hunger, Thirst, Stami
     TaskEat(ped) Wait(1000)
     for k,v in pairs(Items) do
       if Item == v.ID then
-        TriggerEvent("fred:consume", Hunger, Thirst, Stamina, 0, 0, Health, 0, 0)
+        TriggerEvent('DevDokus:Metabolism:C:Hunger', Hunger)
+        TriggerEvent('DevDokus:Metabolism:C:Thirst', Thirst)
+        TriggerEvent('DevDokus:Metabolism:C:Stamina', Stamina)
+        TriggerEvent('DevDokus:Metabolism:C:Health', Health)
       end
     end
   elseif Type == 'Drink' then
     TaskBottle(ped) Wait(1000)
     for k,v in pairs(Items) do
       if Item == v.ID then
-        TriggerEvent("fred:consume", Hunger, Thirst, Stamina, 0, 0, Health, 0, 0)
+        TriggerEvent('DevDokus:Metabolism:C:Hunger', Hunger)
+        TriggerEvent('DevDokus:Metabolism:C:Thirst', Thirst)
+        TriggerEvent('DevDokus:Metabolism:C:Stamina', Stamina)
+        TriggerEvent('DevDokus:Metabolism:C:Health', Health)
       end
     end
   elseif Type == 'Placing' then
