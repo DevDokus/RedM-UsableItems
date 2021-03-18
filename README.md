@@ -1,4 +1,4 @@
-# RedM-UsableItems (v1.0.0)
+# RedM-UsableItems (v1.1.0)
  Make custom items usable in RedM with ease!
 
 # Discord
