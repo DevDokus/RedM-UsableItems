@@ -1,6 +1,12 @@
 # RedM-UsableItems (v1.0.0)
  Make custom items usable in RedM with ease!
 
+# Discord
+If you need any information about my script,<br>
+if you found a bug, if you have an idea for the <br>
+next version, or if you simply need some help.<br>
+Feel free to join our [Discord](http://discord.gg/2gdypBhsye)
+
 # Requirments
 [DevDokus Metabolism](https://github.com/DevDokus/RedM-Metabolism)
  
